@@ -30,13 +30,13 @@
 			],
 			"image": "lscr.io/linuxserver/airsonic-advanced:latest",
 			"logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/airsonic-logo.png",
-			"name": "airsonic",
+			"name": "airsonic-advanced",
 			"platform": "linux",
 			"ports": [
 				"4040:4040/tcp"
 			],
 			"restart_policy": "unless-stopped",
-			"title": "Airsonic",
+			"title": "Airsonic-Advanced",
 			"type": 1,
 			"volumes": [
 				{
