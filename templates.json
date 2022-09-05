@@ -28,7 +28,7 @@
 					"set": "-Xms256m -Xmx512m"
 				}
 			],
-			"image": "lscr.io/linuxserver/airsonic:latest",
+			"image": "lscr.io/linuxserver/airsonic-advanced:latest",
 			"logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/airsonic-logo.png",
 			"name": "airsonic",
 			"platform": "linux",
