@@ -2366,13 +2366,13 @@
 				"Tools"
 			],
 			"description": "A clientless remote desktop gateway.",
-			"image": "jasonbean/guacamole:latest",
+			"image": "jwetzell/guacamole:latest",
 			"logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/guacamole.png",
 			"name": "guacamole",
 			"note": "The default login will be guacadmin/guacadmin. It is common practice to add a new admin user and remove the default user for Guacamole.",
 			"platform": "linux",
 			"ports": [
-				"4822:4822/tcp"
+				"4822:8080/tcp"
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Guacamole",
